@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+#main{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center; /* Center the content */
+	background-color:grey;
+}
+
+#red, #green, #yellow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Makes them circular */
+    display: inline-block; /* Aligns them horizontally */
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#yellow {
+    background-color: yellow;
+}
