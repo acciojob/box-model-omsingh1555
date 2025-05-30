@@ -1,11 +1,11 @@
-#main{
+#main {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; /* Make sure this line is uncommented */
     padding: 20px;
     border: 2px solid black;
     border-radius: 50px;
     text-align: center; /* Center the content */
-	background-color:grey;
+    background-color: grey;
 }
 
 #red, #green, #yellow {
