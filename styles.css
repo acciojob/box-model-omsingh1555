@@ -4,9 +4,9 @@
 	background-color:#d4d4d4;
       display:flex;
 border:5px solid black;
-border-radius:50px;	
+border-radius:50px;	}
 	.green{
-		background-color:#008000;
+		background-color:green;
 		width:100px;
 		height:100px;
 		border-radius:50%;
@@ -17,7 +17,7 @@ border-radius:50px;
 		
 	}
 	.yellow{
-	background-color:#ffff00;
+	background-color:yellow;
 		width:100px;
 		height:100px;
 		border-radius:50%;
@@ -26,13 +26,13 @@ border-radius:50px;
 		margin:auto;
 	}
 	.red{
-		background-color:#ff0000;
+		background-color:red;
 		width:100px;
 		height:100px;
 		border-radius:50%;
 		display:inline-block;
 			box-sizing:border-box;
 		margin:auto;
-		
+	}
 
 	}
