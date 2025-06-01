@@ -1,28 +1,37 @@
-#main {
-    width: 80%;
-    margin: 0 auto; /* Make sure this line is uncommented */
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 50px;
-    text-align: center; /* Center the content */
-    background-color: grey;
-}
+#main{
+	width:620px;
+	height:300px;
+	background-color:#d4d4d4;
+      display:flex;
+border:5px solid black;
+border-radius:50px;	
+	#green{
+		background-color:green;
+		width:100px;
+		height:100px;
+		border-radius:50%;
+		position:relative;
+		top:100px;
+		left:170px;
+		
+		
+	}
+	#yellow{
+	background-color:yellow;
+		width:100px;
+		height:100px;
+		border-radius:50%;
+		position:relative;
+		top:100px;
+		left:210px;
+	}
+	#red{
+		background-color:red;
+		width:100px;
+		height:100px;
+		border-radius:50%;
+		position:relative;
+		top:100px;
+		left:250px;
 
-#red, #green, #yellow {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; /* Makes them circular */
-    display: inline-block; /* Aligns them horizontally */
-}
-
-#red {
-    background-color: red;
-}
-
-#green {
-    background-color: green;
-}
-
-#yellow {
-    background-color: yellow;
-}
+	}
